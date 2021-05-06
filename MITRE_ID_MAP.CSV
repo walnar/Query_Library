@@ -1,0 +1,716 @@
+TA0043, Reconnaissance,          T1595, Active Scanning                             ,     , 
+TA0043, Reconnaissance,          T1595, Active Scanning                             , .001, Scanning IP Blocks
+TA0043, Reconnaissance,          T1595, Active Scanning                             , .002, Vulnerability Scanning
+TA0043, Reconnaissance,          T1592, Gather Victim Host Information              ,     , 
+TA0043, Reconnaissance,          T1592, Gather Victim Host Information              , .004, Client Configurations
+TA0043, Reconnaissance,          T1592, Gather Victim Host Information              , .003, Firmware
+TA0043, Reconnaissance,          T1592, Gather Victim Host Information              , .001, Hardware
+TA0043, Reconnaissance,          T1592, Gather Victim Host Information              , .002, Software
+TA0043, Reconnaissance,          T1589, Gather Victim Identity Information          ,     , 
+TA0043, Reconnaissance,          T1589, Gather Victim Identity Information          , .001, Credentials
+TA0043, Reconnaissance,          T1589, Gather Victim Identity Information          , .002, Email Addresses
+TA0043, Reconnaissance,          T1589, Gather Victim Identity Information          , .003, Employee Names
+TA0043, Reconnaissance,          T1590, Gather Victim Network Information           ,     , 
+TA0043, Reconnaissance,          T1590, Gather Victim Network Information           , .002, DNS
+TA0043, Reconnaissance,          T1590, Gather Victim Network Information           , .001, Domain Properties
+TA0043, Reconnaissance,          T1590, Gather Victim Network Information           , .005, IP Addresses
+TA0043, Reconnaissance,          T1590, Gather Victim Network Information           , .006, Network Security Appliances
+TA0043, Reconnaissance,          T1590, Gather Victim Network Information           , .004, Network Topology
+TA0043, Reconnaissance,          T1590, Gather Victim Network Information           , .003, Network Trust Dependencies
+TA0043, Reconnaissance,          T1591, Gather Victim Org Information               ,     , 
+TA0043, Reconnaissance,          T1591, Gather Victim Org Information               , .002, Business Relationships
+TA0043, Reconnaissance,          T1591, Gather Victim Org Information               , .001, Determine Physical Locations
+TA0043, Reconnaissance,          T1591, Gather Victim Org Information               , .003, Identify Business Tempo
+TA0043, Reconnaissance,          T1591, Gather Victim Org Information               , .004, Identify Roles
+TA0043, Reconnaissance,          T1598, Phishing for Information                    ,     , 
+TA0043, Reconnaissance,          T1598, Phishing for Information                    , .002, Spearphishing Attachment
+TA0043, Reconnaissance,          T1598, Phishing for Information                    , .003, Spearphishing Link
+TA0043, Reconnaissance,          T1598, Phishing for Information                    , .001, Spearphishing Service
+TA0043, Reconnaissance,          T1597, Search Closed Sources                       ,     , 
+TA0043, Reconnaissance,          T1597, Search Closed Sources                       , .002, Purchase Technical Data
+TA0043, Reconnaissance,          T1597, Search Closed Sources                       , .001, Threat Intel Vendors
+TA0043, Reconnaissance,          T1597, Search Closed Sources                       , .004, CDNs
+TA0043, Reconnaissance,          T1597, Search Closed Sources                       , .003, Digital Certificates
+TA0043, Reconnaissance,          T1597, Search Closed Sources                       , .001, DNS/Passive DNS
+TA0043, Reconnaissance,          T1597, Search Closed Sources                       , .005, Scan Databases
+TA0043, Reconnaissance,          T1597, Search Closed Sources                       , .002, WHOIS
+TA0043, Reconnaissance,          T1593, Search Open Websites/Domains                ,     , 
+TA0043, Reconnaissance,          T1593, Search Open Websites/Domains                , .002, Search Engines
+TA0043, Reconnaissance,          T1593, Search Open Websites/Domains                , .001, Social Media
+TA0043, Reconnaissance,          T1594, Search Victim-Owned Websites                ,     ,
+TA0042, Resource Development,    T1583, Acquire Infrastructure                      ,     , 
+TA0042, Resource Development,    T1583, Acquire Infrastructure                      , .005, Botnet
+TA0042, Resource Development,    T1583, Acquire Infrastructure                      , .002, DNS Server
+TA0042, Resource Development,    T1583, Acquire Infrastructure                      , .001, Domains
+TA0042, Resource Development,    T1583, Acquire Infrastructure                      , .004, Server
+TA0042, Resource Development,    T1583, Acquire Infrastructure                      , .003, Virtual Private Server
+TA0042, Resource Development,    T1583, Acquire Infrastructure                      , .006, Web Services
+TA0042, Resource Development,    T1586, Compromise Accounts                         ,     , 
+TA0042, Resource Development,    T1586, Compromise Accounts                         , .002, Email Accounts
+TA0042, Resource Development,    T1586, Compromise Accounts                         , .001, Social Media Accounts
+TA0042, Resource Development,    T1584, Compromise Infrastructure                   ,     , 
+TA0042, Resource Development,    T1584, Compromise Infrastructure                   , .005, Botnet
+TA0042, Resource Development,    T1584, Compromise Infrastructure                   , .002, DNS Server
+TA0042, Resource Development,    T1584, Compromise Infrastructure                   , .001, Domains
+TA0042, Resource Development,    T1584, Compromise Infrastructure                   , .004, Server
+TA0042, Resource Development,    T1584, Compromise Infrastructure                   , .003, Virtual Private Server
+TA0042, Resource Development,    T1584, Compromise Infrastructure                   , .006, Web Services
+TA0042, Resource Development,    T1587, Develop Capabilities                        ,     , 
+TA0042, Resource Development,    T1587, Develop Capabilities                        , .002, Code Signing Certificates
+TA0042, Resource Development,    T1587, Develop Capabilities                        , .003, Digital Certificates
+TA0042, Resource Development,    T1587, Develop Capabilities                        , .004, Exploits
+TA0042, Resource Development,    T1587, Develop Capabilities                        , .001, Malware
+TA0042, Resource Development,    T1585, Establish Accounts                          ,     , 
+TA0042, Resource Development,    T1585, Establish Accounts                          , .002, Email Accounts
+TA0042, Resource Development,    T1585, Establish Accounts                          , .001, Social Media Accounts
+TA0042, Resource Development,    T1588, Obtain Capabilities                         ,     , 
+TA0042, Resource Development,    T1588, Obtain Capabilities                         , .003, Code Signing Certificates
+TA0042, Resource Development,    T1588, Obtain Capabilities                         , .004, Digital Certificates
+TA0042, Resource Development,    T1588, Obtain Capabilities                         , .005, Exploits
+TA0042, Resource Development,    T1588, Obtain Capabilities                         , .001, Malware
+TA0042, Resource Development,    T1588, Obtain Capabilities                         , .002, Tool
+TA0042, Resource Development,    T1588, Obtain Capabilities                         , .006, Vulnerabilities
+TA0042, Resource Development,    T1608, Stage Capabilities                          ,     ,  
+TA0042, Resource Development,    T1608, Stage Capabilities                          , .004, Drive-by Target
+TA0042, Resource Development,    T1608, Stage Capabilities                          , .003, Install Digital Certificate
+TA0042, Resource Development,    T1608, Stage Capabilities                          , .005, Link Target
+TA0042, Resource Development,    T1608, Stage Capabilities                          , .001, Upload Malware
+TA0042, Resource Development,    T1608, Stage Capabilities                          , .002, Upload Tool
+TA0001, Initial Access,          T1189, Drive-by Compromise                         ,     ,
+TA0001, Initial Access,          T1190, Exploit Public-Facing Application           ,     ,
+TA0001, Initial Access,          T1133, External Remote Services                    ,     ,
+TA0001, Initial Access,          T1200, Hardware Additions                          ,     ,
+TA0001, Initial Access,          T1566, Phishing                                    ,     ,  
+TA0001, Initial Access,          T1566, Phishing                                    , .001, Spearphishing Attachment
+TA0001, Initial Access,          T1566, Phishing                                    , .002, Spearphishing Link
+TA0001, Initial Access,          T1566, Phishing                                    , .003, Spearphishing via Service
+TA0001, Initial Access,          T1091, Replication Through Removable Media         ,     ,
+TA0001, Initial Access,          T1195, Supply Chain Compromise                     ,     , 
+TA0001, Initial Access,          T1195, Supply Chain Compromise                     , .003, Compromise Hardware Supply Chain
+TA0001, Initial Access,          T1195, Supply Chain Compromise                     , .001, Compromise Software Dependencies and Development Tools
+TA0001, Initial Access,          T1195, Supply Chain Compromise                     , .002, Compromise Software Supply Chain
+TA0001, Initial Access,          T1199, Trusted Relationship                        ,     ,
+TA0001, Initial Access,          T1078, Valid Accounts                              ,     , 
+TA0001, Initial Access,          T1078, Valid Accounts                              , .004, Cloud Accounts
+TA0001, Initial Access,          T1078, Valid Accounts                              , .001, Default Accounts
+TA0001, Initial Access,          T1078, Valid Accounts                              , .002, Domain Accounts
+TA0001, Initial Access,          T1078, Valid Accounts                              , .003, Local Accounts
+TA0002, Execution,               T1059, Command and Scripting Interpreter           ,     , 
+TA0002, Execution,               T1059, Command and Scripting Interpreter           , .002, AppleScript
+TA0002, Execution,               T1059, Command and Scripting Interpreter           , .007, JavaScript
+TA0002, Execution,               T1059, Command and Scripting Interpreter           , .008, Network Device CLI
+TA0002, Execution,               T1059, Command and Scripting Interpreter           , .001, PowerShell
+TA0002, Execution,               T1059, Command and Scripting Interpreter           , .006, Python
+TA0002, Execution,               T1059, Command and Scripting Interpreter           , .004, Unix Shell
+TA0002, Execution,               T1059, Command and Scripting Interpreter           , .005, Visual Basic
+TA0002, Execution,               T1059, Command and Scripting Interpreter           , .003, Windows Command Shell
+TA0002, Execution,               T1609, Container Administration Command            ,     ,
+TA0002, Execution,               T1610, Deploy Container                            ,     ,
+TA0002, Execution,               T1203, Exploitation for Client Execution           ,     ,
+TA0002, Execution,               T1559, Inter-Process Communication                 ,     , 
+TA0002, Execution,               T1559, Inter-Process Communication                 , .001, Component Object Model
+TA0002, Execution,               T1559, Inter-Process Communication                 , .002, Dynamic Data Exchange
+TA0002, Execution,               T1106, Native API                                  ,     ,
+TA0002, Execution,               T1053, Scheduled Task/Job                          ,     , 
+TA0002, Execution,               T1053, Scheduled Task/Job                          , .001, At (Linux)
+TA0002, Execution,               T1053, Scheduled Task/Job                          , .002, At (Windows)
+TA0002, Execution,               T1053, Scheduled Task/Job                          , .007, Container Orchestration Job
+TA0002, Execution,               T1053, Scheduled Task/Job                          , .003, Cron
+TA0002, Execution,               T1053, Scheduled Task/Job                          , .004, Launchd
+TA0002, Execution,               T1053, Scheduled Task/Job                          , .005, Scheduled Task
+TA0002, Execution,               T1053, Scheduled Task/Job                          , .006, Systemd Timers
+TA0002, Execution,               T1129, Shared Modules                              ,     ,
+TA0002, Execution,               T1072, Software Deployment Tools                   ,     ,
+TA0002, Execution,               T1569, System Services                             ,     , 
+TA0002, Execution,               T1569, System Services                             , .001, Launchctl
+TA0002, Execution,               T1569, System Services                             , .002, Service Execution
+TA0002, Execution,               T1204, User Execution                              ,     , 
+TA0002, Execution,               T1204, User Execution                              , .002, Malicious File
+TA0002, Execution,               T1204, User Execution                              , .003, Malicious Image
+TA0002, Execution,               T1204, User Execution                              , .001, Malicious Link
+TA0002, Execution,               T1047, Windows Management Instrumentation          ,     ,
+TA0003, Persistence,             T1098, Account Manipulation                        ,     , 
+TA0003, Persistence,             T1098, Account Manipulation                        , .003, Add Office 365 Global Administrator Role
+TA0003, Persistence,             T1098, Account Manipulation                        , .001, Additional Cloud Credentials
+TA0003, Persistence,             T1098, Account Manipulation                        , .002, Exchange Email Delegate Permissions
+TA0003, Persistence,             T1098, Account Manipulation                        , .004, SSH Authorized Keys
+TA0003, Persistence,             T1197, BITS Jobs                                   ,     ,
+TA0003, Persistence,             T1547, Boot or Logon Autostart Execution           ,     ,  
+TA0003, Persistence,             T1547, Boot or Logon Autostart Execution           , .014, Active Setup
+TA0003, Persistence,             T1547, Boot or Logon Autostart Execution           , .002, Authentication Package
+TA0003, Persistence,             T1547, Boot or Logon Autostart Execution           , .006, Kernel Modules and Extensions
+TA0003, Persistence,             T1547, Boot or Logon Autostart Execution           , .008, LSASS Driver
+TA0003, Persistence,             T1547, Boot or Logon Autostart Execution           , .011, Plist Modification
+TA0003, Persistence,             T1547, Boot or Logon Autostart Execution           , .010, Port Monitors
+TA0003, Persistence,             T1547, Boot or Logon Autostart Execution           , .012, Print Processors
+TA0003, Persistence,             T1547, Boot or Logon Autostart Execution           , .007, Re-opened Applications
+TA0003, Persistence,             T1547, Boot or Logon Autostart Execution           , .001, Registry Run Keys / Startup Folder
+TA0003, Persistence,             T1547, Boot or Logon Autostart Execution           , .005, Security Support Provider
+TA0003, Persistence,             T1547, Boot or Logon Autostart Execution           , .009, Shortcut Modification
+TA0003, Persistence,             T1547, Boot or Logon Autostart Execution           , .003, Time Providers
+TA0003, Persistence,             T1547, Boot or Logon Autostart Execution           , .004, Winlogon Helper DLL
+TA0003, Persistence,             T1547, Boot or Logon Autostart Execution           , .013, XDG Autostart Entries
+TA0003, Persistence,             T1037, Boot or Logon Initialization Scripts        ,     ,  
+TA0003, Persistence,             T1037, Boot or Logon Initialization Scripts        , .002, Logon Script (Mac)
+TA0003, Persistence,             T1037, Boot or Logon Initialization Scripts        , .001, Logon Script (Windows)
+TA0003, Persistence,             T1037, Boot or Logon Initialization Scripts        , .003, Network Logon Script
+TA0003, Persistence,             T1037, Boot or Logon Initialization Scripts        , .004, RC Scripts
+TA0003, Persistence,             T1037, Boot or Logon Initialization Scripts        , .005, Startup Items
+TA0003, Persistence,             T1176, Browser Extensions                          ,     ,
+TA0003, Persistence,             T1554, Compromise Client Software Binary           ,     ,
+TA0003, Persistence,             T1136, Create Account                              ,     , 
+TA0003, Persistence,             T1136, Create Account                              , .003, Cloud Account
+TA0003, Persistence,             T1136, Create Account                              , .002, Domain Account
+TA0003, Persistence,             T1136, Create Account                              , .001, Local Account
+TA0003, Persistence,             T1543, Create or Modify System Process             ,     , 
+TA0003, Persistence,             T1543, Create or Modify System Process             , .001, Launch Agent
+TA0003, Persistence,             T1543, Create or Modify System Process             , .004, Launch Daemon
+TA0003, Persistence,             T1543, Create or Modify System Process             , .002, Systemd Service
+TA0003, Persistence,             T1543, Create or Modify System Process             , .003, Windows Service
+TA0003, Persistence,             T1546, Event Triggered Execution                   ,     , 
+TA0003, Persistence,             T1546, Event Triggered Execution                   , .008, Accessibility Features
+TA0003, Persistence,             T1546, Event Triggered Execution                   , .009, AppCert DLLs
+TA0003, Persistence,             T1546, Event Triggered Execution                   , .010, AppInit DLLs
+TA0003, Persistence,             T1546, Event Triggered Execution                   , .011, Application Shimming
+TA0003, Persistence,             T1546, Event Triggered Execution                   , .001, Change Default File Association
+TA0003, Persistence,             T1546, Event Triggered Execution                   , .015, Component Object Model Hijacking
+TA0003, Persistence,             T1546, Event Triggered Execution                   , .014, Emond
+TA0003, Persistence,             T1546, Event Triggered Execution                   , .012, Image File Execution Options Injection
+TA0003, Persistence,             T1546, Event Triggered Execution                   , .006, LC_LOAD_DYLIB Addition
+TA0003, Persistence,             T1546, Event Triggered Execution                   , .007, Netsh Helper DLL
+TA0003, Persistence,             T1546, Event Triggered Execution                   , .013, PowerShell Profile
+TA0003, Persistence,             T1546, Event Triggered Execution                   , .002, Screensaver
+TA0003, Persistence,             T1546, Event Triggered Execution                   , .005, Trap
+TA0003, Persistence,             T1546, Event Triggered Execution                   , .004, Unix Shell Configuration Modification
+TA0003, Persistence,             T1546, Event Triggered Execution                   , .003, Windows Management Instrumentation Event Subscription
+TA0003, Persistence,             T1133, External Remote Services                    ,     ,
+TA0003, Persistence,             T1574, Hijack Execution Flow                       ,     , 
+TA0003, Persistence,             T1574, Hijack Execution Flow                       , .012, COR_PROFILER
+TA0003, Persistence,             T1574, Hijack Execution Flow                       , .001, DLL Search Order Hijacking
+TA0003, Persistence,             T1574, Hijack Execution Flow                       , .002, DLL Side-Loading
+TA0003, Persistence,             T1574, Hijack Execution Flow                       , .004, Dylib Hijacking
+TA0003, Persistence,             T1574, Hijack Execution Flow                       , .006, Dynamic Linker Hijacking
+TA0003, Persistence,             T1574, Hijack Execution Flow                       , .005, Executable Installer File Permissions Weakness
+TA0003, Persistence,             T1574, Hijack Execution Flow                       , .007, Path Interception by PATH Environment Variable
+TA0003, Persistence,             T1574, Hijack Execution Flow                       , .008, Path Interception by Search Order Hijacking
+TA0003, Persistence,             T1574, Hijack Execution Flow                       , .009, Path Interception by Unquoted Path
+TA0003, Persistence,             T1574, Hijack Execution Flow                       , .010, Services File Permissions Weakness
+TA0003, Persistence,             T1574, Hijack Execution Flow                       , .011, Services Registry Permissions Weakness
+TA0003, Persistence,             T1525, Implant Internal Image                      ,     ,
+TA0003, Persistence,             T1556, Modify Authentication Process               ,     , 
+TA0003, Persistence,             T1556, Modify Authentication Process               , .001, Domain Controller Authentication
+TA0003, Persistence,             T1556, Modify Authentication Process               , .004, Network Device Authentication
+TA0003, Persistence,             T1556, Modify Authentication Process               , .002, Password Filter DLL
+TA0003, Persistence,             T1556, Modify Authentication Process               , .003, Pluggable Authentication Modules
+TA0003, Persistence,             T1137, Office Application Startup                  ,     , 
+TA0003, Persistence,             T1137, Office Application Startup                  , .006, Add-ins
+TA0003, Persistence,             T1137, Office Application Startup                  , .001, Office Template Macros
+TA0003, Persistence,             T1137, Office Application Startup                  , .002, Office Test
+TA0003, Persistence,             T1137, Office Application Startup                  , .003, Outlook Forms
+TA0003, Persistence,             T1137, Office Application Startup                  , .004, Outlook Home Page
+TA0003, Persistence,             T1137, Office Application Startup                  , .005, Outlook Rules
+TA0003, Persistence,             T1542, Pre-OS Boot                                 ,     , 
+TA0003, Persistence,             T1542, Pre-OS Boot                                 , .003, Bootkit
+TA0003, Persistence,             T1542, Pre-OS Boot                                 , .002, Component Firmware
+TA0003, Persistence,             T1542, Pre-OS Boot                                 , .004, ROMMONkit
+TA0003, Persistence,             T1542, Pre-OS Boot                                 , .001, System Firmware
+TA0003, Persistence,             T1542, Pre-OS Boot                                 , .005, TFTP Boot
+TA0003, Persistence,             T1053, Scheduled Task/Job                          ,     , 
+TA0003, Persistence,             T1053, Scheduled Task/Job                          , .001, At (Linux)
+TA0003, Persistence,             T1053, Scheduled Task/Job                          , .002, At (Windows)
+TA0003, Persistence,             T1053, Scheduled Task/Job                          , .007, Container Orchestration Job
+TA0003, Persistence,             T1053, Scheduled Task/Job                          , .003, Cron
+TA0003, Persistence,             T1053, Scheduled Task/Job                          , .004, Launchd
+TA0003, Persistence,             T1053, Scheduled Task/Job                          , .005, Scheduled Task
+TA0003, Persistence,             T1053, Scheduled Task/Job                          , .006, Systemd Timers
+TA0003, Persistence,             T1505, Server Software Component                   ,     , 
+TA0003, Persistence,             T1505, Server Software Component                   , .001, SQL Stored Procedures
+TA0003, Persistence,             T1505, Server Software Component                   , .002, Transport Agent
+TA0003, Persistence,             T1505, Server Software Component                   , .003, Web Shell
+TA0003, Persistence,             T1205, Traffic Signaling                           ,     , 
+TA0003, Persistence,             T1205, Traffic Signaling                           , .001, Port Knocking
+TA0003, Persistence,             T1078, Valid Accounts                              ,     , 
+TA0003, Persistence,             T1078, Valid Accounts                              , .004, Cloud Accounts
+TA0003, Persistence,             T1078, Valid Accounts                              , .001, Default Accounts
+TA0003, Persistence,             T1078, Valid Accounts                              , .002, Domain Accounts
+TA0003, Persistence,             T1078, Valid Accounts                              , .003, Local Accounts
+TA0004, Privilege Escalation,    T1548, Abuse Elevation Control Mechanism           ,     , 
+TA0004, Privilege Escalation,    T1548, Abuse Elevation Control Mechanism           , .002, Bypass User Account Control
+TA0004, Privilege Escalation,    T1548, Abuse Elevation Control Mechanism           , .004, Elevated Execution with Prompt
+TA0004, Privilege Escalation,    T1548, Abuse Elevation Control Mechanism           , .001, Setuid and Setgid
+TA0004, Privilege Escalation,    T1548, Abuse Elevation Control Mechanism           , .003, Sudo and Sudo Caching
+TA0004, Privilege Escalation,    T1134, Access Token Manipulation                   ,     , 
+TA0004, Privilege Escalation,    T1134, Access Token Manipulation                   , .002, Create Process with Token
+TA0004, Privilege Escalation,    T1134, Access Token Manipulation                   , .003, Make and Impersonate Token
+TA0004, Privilege Escalation,    T1134, Access Token Manipulation                   , .004, Parent PID Spoofing
+TA0004, Privilege Escalation,    T1134, Access Token Manipulation                   , .005, SID-History Injection
+TA0004, Privilege Escalation,    T1134, Access Token Manipulation                   , .001, Token Impersonation/Theft
+TA0004, Privilege Escalation,    T1547, Boot or Logon Autostart Execution           ,     , 
+TA0004, Privilege Escalation,    T1547, Boot or Logon Autostart Execution           , .014, Active Setup
+TA0004, Privilege Escalation,    T1547, Boot or Logon Autostart Execution           , .002, Authentication Package
+TA0004, Privilege Escalation,    T1547, Boot or Logon Autostart Execution           , .006, Kernel Modules and Extensions
+TA0004, Privilege Escalation,    T1547, Boot or Logon Autostart Execution           , .008, LSASS Driver
+TA0004, Privilege Escalation,    T1547, Boot or Logon Autostart Execution           , .011, Plist Modification
+TA0004, Privilege Escalation,    T1547, Boot or Logon Autostart Execution           , .010, Port Monitors
+TA0004, Privilege Escalation,    T1547, Boot or Logon Autostart Execution           , .012, Print Processors
+TA0004, Privilege Escalation,    T1547, Boot or Logon Autostart Execution           , .007, Re-opened Applications
+TA0004, Privilege Escalation,    T1547, Boot or Logon Autostart Execution           , .001, Registry Run Keys / Startup Folder
+TA0004, Privilege Escalation,    T1547, Boot or Logon Autostart Execution           , .005, Security Support Provider
+TA0004, Privilege Escalation,    T1547, Boot or Logon Autostart Execution           , .009, Shortcut Modification
+TA0004, Privilege Escalation,    T1547, Boot or Logon Autostart Execution           , .003, Time Providers
+TA0004, Privilege Escalation,    T1547, Boot or Logon Autostart Execution           , .004, Winlogon Helper DLL
+TA0004, Privilege Escalation,    T1547, Boot or Logon Autostart Execution           , .013, XDG Autostart Entries
+TA0004, Privilege Escalation,    T1037, Boot or Logon Initialization Scripts        ,     , 
+TA0004, Privilege Escalation,    T1037, Boot or Logon Initialization Scripts        , .002, Logon Script (Mac)
+TA0004, Privilege Escalation,    T1037, Boot or Logon Initialization Scripts        , .001, Logon Script (Windows)
+TA0004, Privilege Escalation,    T1037, Boot or Logon Initialization Scripts        , .003, Network Logon Script
+TA0004, Privilege Escalation,    T1037, Boot or Logon Initialization Scripts        , .004, RC Scripts
+TA0004, Privilege Escalation,    T1037, Boot or Logon Initialization Scripts        , .005, Startup Items
+TA0004, Privilege Escalation,    T1543, Create or Modify System Process             ,     , 
+TA0004, Privilege Escalation,    T1543, Create or Modify System Process             , .001, Launch Agent
+TA0004, Privilege Escalation,    T1543, Create or Modify System Process             , .004, Launch Daemon
+TA0004, Privilege Escalation,    T1543, Create or Modify System Process             , .002, Systemd Service
+TA0004, Privilege Escalation,    T1543, Create or Modify System Process             , .003, Windows Service
+TA0004, Privilege Escalation,    T1484, Domain Policy Modification                  ,     , 
+TA0004, Privilege Escalation,    T1484, Domain Policy Modification                  , .002, Domain Trust Modification
+TA0004, Privilege Escalation,    T1484, Domain Policy Modification                  , .001, Group Policy Modification
+TA0004, Privilege Escalation,    T1611, Escape to Host                              ,     ,
+TA0004, Privilege Escalation,    T1546, Event Triggered Execution                   ,     , 
+TA0004, Privilege Escalation,    T1546, Event Triggered Execution                   , .008, Accessibility Features
+TA0004, Privilege Escalation,    T1546, Event Triggered Execution                   , .009, AppCert DLLs
+TA0004, Privilege Escalation,    T1546, Event Triggered Execution                   , .010, AppInit DLLs
+TA0004, Privilege Escalation,    T1546, Event Triggered Execution                   , .011, Application Shimming
+TA0004, Privilege Escalation,    T1546, Event Triggered Execution                   , .001, Change Default File Association
+TA0004, Privilege Escalation,    T1546, Event Triggered Execution                   , .015, Component Object Model Hijacking
+TA0004, Privilege Escalation,    T1546, Event Triggered Execution                   , .014, Emond
+TA0004, Privilege Escalation,    T1546, Event Triggered Execution                   , .012, Image File Execution Options Injection
+TA0004, Privilege Escalation,    T1546, Event Triggered Execution                   , .006, LC_LOAD_DYLIB Addition
+TA0004, Privilege Escalation,    T1546, Event Triggered Execution                   , .007, Netsh Helper DLL
+TA0004, Privilege Escalation,    T1546, Event Triggered Execution                   , .013, PowerShell Profile
+TA0004, Privilege Escalation,    T1546, Event Triggered Execution                   , .002, Screensaver
+TA0004, Privilege Escalation,    T1546, Event Triggered Execution                   , .005, Trap
+TA0004, Privilege Escalation,    T1546, Event Triggered Execution                   , .004, Unix Shell Configuration Modification
+TA0004, Privilege Escalation,    T1546, Event Triggered Execution                   , .003, Windows Management Instrumentation Event Subscription
+TA0004, Privilege Escalation,    T1068, Exploitation for Privilege Escalation       ,     ,
+TA0004, Privilege Escalation,    T1574, Hijack Execution Flow                       ,     , 
+TA0004, Privilege Escalation,    T1574, Hijack Execution Flow                       , .012, COR_PROFILER
+TA0004, Privilege Escalation,    T1574, Hijack Execution Flow                       , .001, DLL Search Order Hijacking
+TA0004, Privilege Escalation,    T1574, Hijack Execution Flow                       , .002, DLL Side-Loading
+TA0004, Privilege Escalation,    T1574, Hijack Execution Flow                       , .004, Dylib Hijacking
+TA0004, Privilege Escalation,    T1574, Hijack Execution Flow                       , .006, Dynamic Linker Hijacking
+TA0004, Privilege Escalation,    T1574, Hijack Execution Flow                       , .005, Executable Installer File Permissions Weakness
+TA0004, Privilege Escalation,    T1574, Hijack Execution Flow                       , .007, Path Interception by PATH Environment Variable
+TA0004, Privilege Escalation,    T1574, Hijack Execution Flow                       , .008, Path Interception by Search Order Hijacking
+TA0004, Privilege Escalation,    T1574, Hijack Execution Flow                       , .009, Path Interception by Unquoted Path
+TA0004, Privilege Escalation,    T1574, Hijack Execution Flow                       , .010, Services File Permissions Weakness
+TA0004, Privilege Escalation,    T1574, Hijack Execution Flow                       , .011, Services Registry Permissions Weakness
+TA0004, Privilege Escalation,    T1055, Process Injection                           ,     ,  
+TA0004, Privilege Escalation,    T1055, Process Injection                           , .004, Asynchronous Procedure Call
+TA0004, Privilege Escalation,    T1055, Process Injection                           , .001, Dynamic-link Library Injection
+TA0004, Privilege Escalation,    T1055, Process Injection                           , .011, Extra Window Memory Injection
+TA0004, Privilege Escalation,    T1055, Process Injection                           , .002, Portable Executable Injection
+TA0004, Privilege Escalation,    T1055, Process Injection                           , .009, Proc Memory
+TA0004, Privilege Escalation,    T1055, Process Injection                           , .013, Process Doppelgänging
+TA0004, Privilege Escalation,    T1055, Process Injection                           , .012, Process Hollowing
+TA0004, Privilege Escalation,    T1055, Process Injection                           , .008, Ptrace System Calls
+TA0004, Privilege Escalation,    T1055, Process Injection                           , .003, Thread Execution Hijacking
+TA0004, Privilege Escalation,    T1055, Process Injection                           , .005, Thread Local Storage
+TA0004, Privilege Escalation,    T1055, Process Injection                           , .014, VDSO Hijacking
+TA0004, Privilege Escalation,    T1053, Scheduled Task/Job                          ,     ,  
+TA0004, Privilege Escalation,    T1053, Scheduled Task/Job                          , .001, At (Linux)
+TA0004, Privilege Escalation,    T1053, Scheduled Task/Job                          , .002, At (Windows)
+TA0004, Privilege Escalation,    T1053, Scheduled Task/Job                          , .007, Container Orchestration Job
+TA0004, Privilege Escalation,    T1053, Scheduled Task/Job                          , .003, Cron
+TA0004, Privilege Escalation,    T1053, Scheduled Task/Job                          , .004, Launchd
+TA0004, Privilege Escalation,    T1053, Scheduled Task/Job                          , .005, Scheduled Task
+TA0004, Privilege Escalation,    T1053, Scheduled Task/Job                          , .006, Systemd Timers
+TA0004, Privilege Escalation,    T1078, Valid Accounts                              ,     , 
+TA0004, Privilege Escalation,    T1078, Valid Accounts                              , .004, Cloud Accounts
+TA0004, Privilege Escalation,    T1078, Valid Accounts                              , .001, Default Accounts
+TA0004, Privilege Escalation,    T1078, Valid Accounts                              , .002, Domain Accounts
+TA0004, Privilege Escalation,    T1078, Valid Accounts                              , .003, Local Accounts
+TA0005, Defense Evasion,         T1548, Abuse Elevation Control Mechanism           ,     , 
+TA0005, Defense Evasion,         T1548, Abuse Elevation Control Mechanism           , .002, Bypass User Account Control
+TA0005, Defense Evasion,         T1548, Abuse Elevation Control Mechanism           , .004, Elevated Execution with Prompt
+TA0005, Defense Evasion,         T1548, Abuse Elevation Control Mechanism           , .001, Setuid and Setgid
+TA0005, Defense Evasion,         T1548, Abuse Elevation Control Mechanism           , .003, Sudo and Sudo Caching
+TA0005, Defense Evasion,         T1134, Access Token Manipulation                   ,     ,  
+TA0005, Defense Evasion,         T1134, Access Token Manipulation                   , .002, Create Process with Token
+TA0005, Defense Evasion,         T1134, Access Token Manipulation                   , .003, Make and Impersonate Token
+TA0005, Defense Evasion,         T1134, Access Token Manipulation                   , .004, Parent PID Spoofing
+TA0005, Defense Evasion,         T1134, Access Token Manipulation                   , .005, SID-History Injection
+TA0005, Defense Evasion,         T1134, Access Token Manipulation                   , .001, Token Impersonation/Theft
+TA0005, Defense Evasion,         T1197, BITS Jobs                                   ,     ,
+TA0005, Defense Evasion,         T1612, Build Image on Host                         ,     ,
+TA0005, Defense Evasion,         T1140, Deobfuscate/Decode Files or Information     ,     ,
+TA0005, Defense Evasion,         T1610, Deploy Container                            ,     ,
+TA0005, Defense Evasion,         T1006, Direct Volume Access                        ,     ,
+TA0005, Defense Evasion,         T1484, Domain Policy Modification                  ,     , 
+TA0005, Defense Evasion,         T1484, Domain Policy Modification                  , .002, Domain Trust Modification
+TA0005, Defense Evasion,         T1484, Domain Policy Modification                  , .001, Group Policy Modification
+TA0005, Defense Evasion,         T1480, Execution Guardrails                        ,     , 
+TA0005, Defense Evasion,         T1480, Execution Guardrails                        , .001, Environmental Keying
+TA0005, Defense Evasion,         T1211, Exploitation for Defense Evasion            ,     ,
+TA0005, Defense Evasion,         T1222, File and Directory Permissions Modification ,     , 
+TA0005, Defense Evasion,         T1222, File and Directory Permissions Modification , .002, Linux and Mac File and Directory Permissions Modification
+TA0005, Defense Evasion,         T1222, File and Directory Permissions Modification , .001, Windows File and Directory Permissions Modification
+TA0005, Defense Evasion,         T1564, Hide Artifacts                              ,     , 
+TA0005, Defense Evasion,         T1564, Hide Artifacts                              , .005, Hidden File System
+TA0005, Defense Evasion,         T1564, Hide Artifacts                              , .001, Hidden Files and Directories
+TA0005, Defense Evasion,         T1564, Hide Artifacts                              , .002, Hidden Users
+TA0005, Defense Evasion,         T1564, Hide Artifacts                              , .003, Hidden Window
+TA0005, Defense Evasion,         T1564, Hide Artifacts                              , .004, NTFS File Attributes
+TA0005, Defense Evasion,         T1564, Hide Artifacts                              , .006, Run Virtual Instance
+TA0005, Defense Evasion,         T1564, Hide Artifacts                              , .007, VBA Stomping
+TA0005, Defense Evasion,         T1574, Hijack Execution Flow                       ,     ,  
+TA0005, Defense Evasion,         T1574, Hijack Execution Flow                       , .012, COR_PROFILER
+TA0005, Defense Evasion,         T1574, Hijack Execution Flow                       , .001, DLL Search Order Hijacking
+TA0005, Defense Evasion,         T1574, Hijack Execution Flow                       , .002, DLL Side-Loading
+TA0005, Defense Evasion,         T1574, Hijack Execution Flow                       , .004, Dylib Hijacking
+TA0005, Defense Evasion,         T1574, Hijack Execution Flow                       , .006, Dynamic Linker Hijacking
+TA0005, Defense Evasion,         T1574, Hijack Execution Flow                       , .005, Executable Installer File Permissions Weakness
+TA0005, Defense Evasion,         T1574, Hijack Execution Flow                       , .007, Path Interception by PATH Environment Variable
+TA0005, Defense Evasion,         T1574, Hijack Execution Flow                       , .008, Path Interception by Search Order Hijacking
+TA0005, Defense Evasion,         T1574, Hijack Execution Flow                       , .009, Path Interception by Unquoted Path
+TA0005, Defense Evasion,         T1574, Hijack Execution Flow                       , .010, Services File Permissions Weakness
+TA0005, Defense Evasion,         T1574, Hijack Execution Flow                       , .011, Services Registry Permissions Weakness
+TA0005, Defense Evasion,         T1562, Impair Defenses                             ,     , 
+TA0005, Defense Evasion,         T1562, Impair Defenses                             , .008, Disable Cloud Logs
+TA0005, Defense Evasion,         T1562, Impair Defenses                             , .007, Disable or Modify Cloud Firewall
+TA0005, Defense Evasion,         T1562, Impair Defenses                             , .004, Disable or Modify System Firewall
+TA0005, Defense Evasion,         T1562, Impair Defenses                             , .001, Disable or Modify Tools
+TA0005, Defense Evasion,         T1562, Impair Defenses                             , .002, Disable Windows Event Logging
+TA0005, Defense Evasion,         T1562, Impair Defenses                             , .003, Impair Command History Logging
+TA0005, Defense Evasion,         T1562, Impair Defenses                             , .006, Indicator Blocking
+TA0005, Defense Evasion,         T1070, Indicator Removal on Host                   ,     , 
+TA0005, Defense Evasion,         T1070, Indicator Removal on Host                   , .003, Clear Command History
+TA0005, Defense Evasion,         T1070, Indicator Removal on Host                   , .002, Clear Linux or Mac System Logs
+TA0005, Defense Evasion,         T1070, Indicator Removal on Host                   , .001, Clear Windows Event Logs
+TA0005, Defense Evasion,         T1070, Indicator Removal on Host                   , .004, File Deletion
+TA0005, Defense Evasion,         T1070, Indicator Removal on Host                   , .005, Network Share Connection Removal
+TA0005, Defense Evasion,         T1070, Indicator Removal on Host                   , .006, Timestomp
+TA0005, Defense Evasion,         T1202, Indirect Command Execution                  ,     ,
+TA0005, Defense Evasion,         T1036, Masquerading                                ,     , 
+TA0005, Defense Evasion,         T1036, Masquerading                                , .001, Invalid Code Signature
+TA0005, Defense Evasion,         T1036, Masquerading                                , .004, Masquerade Task or Service
+TA0005, Defense Evasion,         T1036, Masquerading                                , .005, Match Legitimate Name or Location
+TA0005, Defense Evasion,         T1036, Masquerading                                , .003, Rename System Utilities
+TA0005, Defense Evasion,         T1036, Masquerading                                , .002, Right-to-Left Override
+TA0005, Defense Evasion,         T1036, Masquerading                                , .006, Space after Filename
+TA0005, Defense Evasion,         T1556, Modify Authentication Process               ,     , 
+TA0005, Defense Evasion,         T1556, Modify Authentication Process               , .001, Domain Controller Authentication
+TA0005, Defense Evasion,         T1556, Modify Authentication Process               , .004, Network Device Authentication
+TA0005, Defense Evasion,         T1556, Modify Authentication Process               , .002, Password Filter DLL
+TA0005, Defense Evasion,         T1556, Modify Authentication Process               , .003, Pluggable Authentication Modules
+TA0005, Defense Evasion,         T1578, Modify Cloud Compute Infrastructure         ,     , 
+TA0005, Defense Evasion,         T1578, Modify Cloud Compute Infrastructure         , .002, Create Cloud Instance
+TA0005, Defense Evasion,         T1578, Modify Cloud Compute Infrastructure         , .001, Create Snapshot
+TA0005, Defense Evasion,         T1578, Modify Cloud Compute Infrastructure         , .003, Delete Cloud Instance
+TA0005, Defense Evasion,         T1578, Modify Cloud Compute Infrastructure         , .004, Revert Cloud Instance
+TA0005, Defense Evasion,         T1112, Modify Registry                             ,     ,
+TA0005, Defense Evasion,         T1601, Modify System Image                         ,     , 
+TA0005, Defense Evasion,         T1601, Modify System Image                         , .002, Downgrade System Image
+TA0005, Defense Evasion,         T1601, Modify System Image                         , .001, Patch System Image
+TA0005, Defense Evasion,         T1599, Network Boundary Bridging                   ,     , 
+TA0005, Defense Evasion,         T1599, Network Boundary Bridging                   , .001, Network Address Translation Traversal
+TA0005, Defense Evasion,         T1027, Obfuscated Files or Information             ,     , 
+TA0005, Defense Evasion,         T1027, Obfuscated Files or Information             , .001, Binary Padding
+TA0005, Defense Evasion,         T1027, Obfuscated Files or Information             , .004, Compile After Delivery
+TA0005, Defense Evasion,         T1027, Obfuscated Files or Information             , .005, Indicator Removal from Tools
+TA0005, Defense Evasion,         T1027, Obfuscated Files or Information             , .002, Software Packing
+TA0005, Defense Evasion,         T1027, Obfuscated Files or Information             , .003, Steganography
+TA0005, Defense Evasion,         T1542, Pre-OS Boot                                 ,     , 
+TA0005, Defense Evasion,         T1542, Pre-OS Boot                                 , .003, Bootkit
+TA0005, Defense Evasion,         T1542, Pre-OS Boot                                 , .002, Component Firmware
+TA0005, Defense Evasion,         T1542, Pre-OS Boot                                 , .004, ROMMONkit
+TA0005, Defense Evasion,         T1542, Pre-OS Boot                                 , .001, System Firmware
+TA0005, Defense Evasion,         T1542, Pre-OS Boot                                 , .005, TFTP Boot
+TA0005, Defense Evasion,         T1055, Process Injection                           ,     , 
+TA0005, Defense Evasion,         T1055, Process Injection                           , .004, Asynchronous Procedure Call
+TA0005, Defense Evasion,         T1055, Process Injection                           , .001, Dynamic-link Library Injection
+TA0005, Defense Evasion,         T1055, Process Injection                           , .011, Extra Window Memory Injection
+TA0005, Defense Evasion,         T1055, Process Injection                           , .002, Portable Executable Injection
+TA0005, Defense Evasion,         T1055, Process Injection                           , .009, Proc Memory
+TA0005, Defense Evasion,         T1055, Process Injection                           , .013, Process Doppelgänging
+TA0005, Defense Evasion,         T1055, Process Injection                           , .012, Process Hollowing
+TA0005, Defense Evasion,         T1055, Process Injection                           , .008, Ptrace System Calls
+TA0005, Defense Evasion,         T1055, Process Injection                           , .003, Thread Execution Hijacking
+TA0005, Defense Evasion,         T1055, Process Injection                           , .005, Thread Local Storage
+TA0005, Defense Evasion,         T1055, Process Injection                           , .014, VDSO Hijacking
+TA0005, Defense Evasion,         T1207, Rogue Domain Controller                     ,     ,
+TA0005, Defense Evasion,         T1014, Rootkit                                     ,     ,
+TA0005, Defense Evasion,         T1218, Signed Binary Proxy Execution               ,     , 
+TA0005, Defense Evasion,         T1218, Signed Binary Proxy Execution               , .003, CMSTP
+TA0005, Defense Evasion,         T1218, Signed Binary Proxy Execution               , .001, Compiled HTML File
+TA0005, Defense Evasion,         T1218, Signed Binary Proxy Execution               , .002, Control Panel
+TA0005, Defense Evasion,         T1218, Signed Binary Proxy Execution               , .004, InstallUtil
+TA0005, Defense Evasion,         T1218, Signed Binary Proxy Execution               , .005, Mshta
+TA0005, Defense Evasion,         T1218, Signed Binary Proxy Execution               , .007, Msiexec
+TA0005, Defense Evasion,         T1218, Signed Binary Proxy Execution               , .008, Odbcconf
+TA0005, Defense Evasion,         T1218, Signed Binary Proxy Execution               , .009, Regsvcs/Regasm
+TA0005, Defense Evasion,         T1218, Signed Binary Proxy Execution               , .010, Regsvr32
+TA0005, Defense Evasion,         T1218, Signed Binary Proxy Execution               , .011, Rundll32
+TA0005, Defense Evasion,         T1218, Signed Binary Proxy Execution               , .012, Verclsid
+TA0005, Defense Evasion,         T1216, Signed Script Proxy Execution               , .001, PubPrn
+TA0005, Defense Evasion,         T1553, Subvert Trust Controls                      ,     , 
+TA0005, Defense Evasion,         T1553, Subvert Trust Controls                      , .002, Code Signing
+TA0005, Defense Evasion,         T1553, Subvert Trust Controls                      , .006, Code Signing Policy Modification
+TA0005, Defense Evasion,         T1553, Subvert Trust Controls                      , .001, Gatekeeper Bypass
+TA0005, Defense Evasion,         T1553, Subvert Trust Controls                      , .004, Install Root Certificate
+TA0005, Defense Evasion,         T1553, Subvert Trust Controls                      , .005, Mark-of-the-Web Bypass
+TA0005, Defense Evasion,         T1553, Subvert Trust Controls                      , .003, SIP and Trust Provider Hijacking
+TA0005, Defense Evasion,         T1221, Template Injection                          ,     ,
+TA0005, Defense Evasion,         T1205, Traffic Signaling                           ,     , 
+TA0005, Defense Evasion,         T1205, Traffic Signaling                           , .001, Port Knocking
+TA0005, Defense Evasion,         T1127, Trusted Developer Utilities Proxy Execution ,     , 
+TA0005, Defense Evasion,         T1127, Trusted Developer Utilities Proxy Execution , .001, MSBuild
+TA0005, Defense Evasion,         T1535, Unused/Unsupported Cloud Regions            ,     ,
+TA0005, Defense Evasion,         T1550, Use Alternate Authentication Material       ,     , 
+TA0005, Defense Evasion,         T1550, Use Alternate Authentication Material       , .001, Application Access Token
+TA0005, Defense Evasion,         T1550, Use Alternate Authentication Material       , .002, Pass the Hash
+TA0005, Defense Evasion,         T1550, Use Alternate Authentication Material       , .003, Pass the Ticket
+TA0005, Defense Evasion,         T1550, Use Alternate Authentication Material       , .004, Web Session Cookie
+TA0005, Defense Evasion,         T1078, Valid Accounts                              ,     , 
+TA0005, Defense Evasion,         T1078, Valid Accounts                              , .004, Cloud Accounts
+TA0005, Defense Evasion,         T1078, Valid Accounts                              , .001, Default Accounts
+TA0005, Defense Evasion,         T1078, Valid Accounts                              , .002, Domain Accounts
+TA0005, Defense Evasion,         T1078, Valid Accounts                              , .003, Local Accounts
+TA0005, Defense Evasion,         T1497, Virtualization/Sandbox Evasion              ,     , 
+TA0005, Defense Evasion,         T1497, Virtualization/Sandbox Evasion              , .001, System Checks
+TA0005, Defense Evasion,         T1497, Virtualization/Sandbox Evasion              , .003, Time Based Evasion
+TA0005, Defense Evasion,         T1497, Virtualization/Sandbox Evasion              , .002, User Activity Based Checks
+TA0005, Defense Evasion,         T1600, Weaken Encryption                           ,     , 
+TA0005, Defense Evasion,         T1600, Weaken Encryption                           , .002, Disable Crypto Hardware
+TA0005, Defense Evasion,         T1600, Weaken Encryption                           , .001, Reduce Key Space
+TA0005, Defense Evasion,         T1220, XSL Script Processing                       ,     ,
+TA0006, Credential Access,       T1110, Brute Force                                 ,     , 
+TA0006, Credential Access,       T1110, Brute Force                                 , .004, Credential Stuffing
+TA0006, Credential Access,       T1110, Brute Force                                 , .002, Password Cracking
+TA0006, Credential Access,       T1110, Brute Force                                 , .001, Password Guessing
+TA0006, Credential Access,       T1110, Brute Force                                 , .003, Password Spraying
+TA0006, Credential Access,       T1555, Credentials from Password Stores            ,     , 
+TA0006, Credential Access,       T1555, Credentials from Password Stores            , .003, Credentials from Web Browsers
+TA0006, Credential Access,       T1555, Credentials from Password Stores            , .001, Keychain
+TA0006, Credential Access,       T1555, Credentials from Password Stores            , .005, Password Managers
+TA0006, Credential Access,       T1555, Credentials from Password Stores            , .002, Securityd Memory
+TA0006, Credential Access,       T1555, Credentials from Password Stores            , .004, Windows Credential Manager
+TA0006, Credential Access,       T1212, Exploitation for Credential Access          ,     ,
+TA0006, Credential Access,       T1187, Forced Authentication                       ,     ,
+TA0006, Credential Access,       T1606, Forge Web Credentials                       ,     , 
+TA0006, Credential Access,       T1606, Forge Web Credentials                       , .002, SAML Tokens
+TA0006, Credential Access,       T1606, Forge Web Credentials                       , .001, Web Cookies
+TA0006, Credential Access,       T1056, Input Capture                               ,     , 
+TA0006, Credential Access,       T1056, Input Capture                               , .004, Credential API Hooking
+TA0006, Credential Access,       T1056, Input Capture                               , .002, GUI Input Capture
+TA0006, Credential Access,       T1056, Input Capture                               , .001, Keylogging
+TA0006, Credential Access,       T1056, Input Capture                               , .003, Web Portal Capture
+TA0006, Credential Access,       T1557, Man-in-the-Middle 7                         ,     , 
+TA0006, Credential Access,       T1557, Man-in-the-Middle 7                         , .002, ARP Cache Poisoning
+TA0006, Credential Access,       T1557, Man-in-the-Middle 7                         , .001, LLMNR/NBT-NS Poisoning and SMB Relay
+TA0006, Credential Access,       T1556, Modify Authentication Process               ,     , 
+TA0006, Credential Access,       T1556, Modify Authentication Process               , .001, Domain Controller Authentication
+TA0006, Credential Access,       T1556, Modify Authentication Process               , .004, Network Device Authentication
+TA0006, Credential Access,       T1556, Modify Authentication Process               , .002, Password Filter DLL
+TA0006, Credential Access,       T1556, Modify Authentication Process               , .003, Pluggable Authentication Modules
+TA0006, Credential Access,       T1040, Network Sniffing                            ,     ,
+TA0006, Credential Access,       T1003, OS Credential Dumping                       ,     , 
+TA0006, Credential Access,       T1003, OS Credential Dumping                       , .008, /etc/passwd and /etc/shadow
+TA0006, Credential Access,       T1003, OS Credential Dumping                       , .005, Cached Domain Credentials
+TA0006, Credential Access,       T1003, OS Credential Dumping                       , .006, DCSync
+TA0006, Credential Access,       T1003, OS Credential Dumping                       , .004, LSA Secrets
+TA0006, Credential Access,       T1003, OS Credential Dumping                       , .001, LSASS Memory
+TA0006, Credential Access,       T1003, OS Credential Dumping                       , .003, NTDS
+TA0006, Credential Access,       T1003, OS Credential Dumping                       , .007, Proc Filesystem
+TA0006, Credential Access,       T1003, OS Credential Dumping                       , .002, Security Account Manager
+TA0006, Credential Access,       T1528, Steal Application Access Token              ,     ,
+TA0006, Credential Access,       T1558, Steal or Forge Kerberos Tickets             ,     , 
+TA0006, Credential Access,       T1558, Steal or Forge Kerberos Tickets             , .004, AS-REP Roasting
+TA0006, Credential Access,       T1558, Steal or Forge Kerberos Tickets             , .001, Golden Ticket
+TA0006, Credential Access,       T1558, Steal or Forge Kerberos Tickets             , .003, Kerberoasting
+TA0006, Credential Access,       T1558, Steal or Forge Kerberos Tickets             , .002, Silver Ticket
+TA0006, Credential Access,       T1539, Steal Web Session Cookie                    ,     ,
+TA0006, Credential Access,       T1111, Two-Factor Authentication Interception      ,     ,
+TA0006, Credential Access,       T1552, Unsecured Credentials                       ,     , 
+TA0006, Credential Access,       T1552, Unsecured Credentials                       , .003, Bash History
+TA0006, Credential Access,       T1552, Unsecured Credentials                       , .005, Cloud Instance Metadata API
+TA0006, Credential Access,       T1552, Unsecured Credentials                       , .007, Container API
+TA0006, Credential Access,       T1552, Unsecured Credentials                       , .001, Credentials In Files
+TA0006, Credential Access,       T1552, Unsecured Credentials                       , .002, Credentials in Registry
+TA0006, Credential Access,       T1552, Unsecured Credentials                       , .006, Group Policy Preferences
+TA0006, Credential Access,       T1552, Unsecured Credentials                       , .004, Private Keys
+TA0007, Discovery,               T1087, Account Discovery 7                         ,     , 
+TA0007, Discovery,               T1087, Account Discovery 7                         , .004, Cloud Account
+TA0007, Discovery,               T1087, Account Discovery 7                         , .002, Domain Account
+TA0007, Discovery,               T1087, Account Discovery 7                         , .003, Email Account
+TA0007, Discovery,               T1087, Account Discovery 7                         , .001, Local Account
+TA0007, Discovery,               T1010, Application Window Discovery                ,     ,
+TA0007, Discovery,               T1217, Browser Bookmark Discovery                  ,     ,
+TA0007, Discovery,               T1580, Cloud Infrastructure Discovery              ,     ,
+TA0007, Discovery,               T1538, Cloud Service Dashboard                     ,     ,
+TA0007, Discovery,               T1526, Cloud Service Discovery                     ,     ,
+TA0007, Discovery,               T1613, Container and Resource Discovery            ,     ,
+TA0007, Discovery,               T1482, Domain Trust Discovery                      ,     ,
+TA0007, Discovery,               T1083, File and Directory Discovery                ,     ,
+TA0007, Discovery,               T1046, Network Service Scanning                    ,     ,
+TA0007, Discovery,               T1135, Network Share Discovery                     ,     ,
+TA0007, Discovery,               T1040, Network Sniffing                            ,     ,
+TA0007, Discovery,               T1201, Password Policy Discovery                   ,     ,
+TA0007, Discovery,               T1120, Peripheral Device Discovery                 ,     ,
+TA0007, Discovery,               T1069, Permission Groups Discovery                 ,     , 
+TA0007, Discovery,               T1069, Permission Groups Discovery                 , .003, Cloud Groups
+TA0007, Discovery,               T1069, Permission Groups Discovery                 , .002, Domain Groups
+TA0007, Discovery,               T1069, Permission Groups Discovery                 , .001, Local Groups
+TA0007, Discovery,               T1057, Process Discovery                           ,     ,
+TA0007, Discovery,               T1012, Query Registry                              ,     ,
+TA0007, Discovery,               T1018, Remote System Discovery                     ,     ,
+TA0007, Discovery,               T1518, Software Discovery                          ,     , 
+TA0007, Discovery,               T1518, Software Discovery                          , .001, Security Software Discovery
+TA0007, Discovery,               T1082, System Information Discovery                ,     ,
+TA0007, Discovery,               T1614, System Location Discovery                   ,     ,
+TA0007, Discovery,               T1016, System Network Configuration Discovery      ,     , 
+TA0007, Discovery,               T1016, System Network Configuration Discovery      , .001, Internet Connection Discovery
+TA0007, Discovery,               T1049, System Network Connections Discovery        ,     ,
+TA0007, Discovery,               T1033, System Owner/User Discovery                 ,     ,
+TA0007, Discovery,               T1007, System Service Discovery                    ,     ,
+TA0007, Discovery,               T1124, System Time Discovery                       ,     ,
+TA0007, Discovery,               T1497, Virtualization/Sandbox Evasion              ,     , 
+TA0007, Discovery,               T1497, Virtualization/Sandbox Evasion              , .001, System Checks
+TA0007, Discovery,               T1497, Virtualization/Sandbox Evasion              , .003, Time Based Evasion
+TA0007, Discovery,               T1497, Virtualization/Sandbox Evasion              , .002, User Activity Based Checks
+TA0008, Lateral Movement,        T1210, Exploitation of Remote Services             ,     ,
+TA0008, Lateral Movement,        T1534, Internal Spearphishing                      ,     ,
+TA0008, Lateral Movement,        T1570, Lateral Tool Transfer                       ,     ,
+TA0008, Lateral Movement,        T1563, Remote Service Session Hijacking            ,     , 
+TA0008, Lateral Movement,        T1563, Remote Service Session Hijacking            , .002, RDP Hijacking
+TA0008, Lateral Movement,        T1563, Remote Service Session Hijacking            , .001, SSH Hijacking
+TA0008, Lateral Movement,        T1021, Remote Services                             ,     , 
+TA0008, Lateral Movement,        T1021, Remote Services                             , .003, Distributed Component Object Model
+TA0008, Lateral Movement,        T1021, Remote Services                             , .001, Remote Desktop Protocol
+TA0008, Lateral Movement,        T1021, Remote Services                             , .002, SMB/Windows Admin Shares
+TA0008, Lateral Movement,        T1021, Remote Services                             , .004, SSH
+TA0008, Lateral Movement,        T1021, Remote Services                             , .005, VNC
+TA0008, Lateral Movement,        T1021, Remote Services                             , .006, Windows Remote Management
+TA0008, Lateral Movement,        T1091, Replication Through Removable Media         ,     ,
+TA0008, Lateral Movement,        T1072, Software Deployment Tools                   ,     ,
+TA0008, Lateral Movement,        T1080, Taint Shared Content                        ,     ,
+TA0008, Lateral Movement,        T1550, Use Alternate Authentication Material       ,     , 
+TA0008, Lateral Movement,        T1550, Use Alternate Authentication Material       , .001, Application Access Token
+TA0008, Lateral Movement,        T1550, Use Alternate Authentication Material       , .002, Pass the Hash
+TA0008, Lateral Movement,        T1550, Use Alternate Authentication Material       , .003, Pass the Ticket
+TA0008, Lateral Movement,        T1550, Use Alternate Authentication Material       , .004, Web Session Cookie
+TA0009, Collection,              T1560, Archive Collected Data                      ,     , 
+TA0009, Collection,              T1560, Archive Collected Data                      , .003, Archive via Custom Method
+TA0009, Collection,              T1560, Archive Collected Data                      , .002, Archive via Library
+TA0009, Collection,              T1560, Archive Collected Data                      , .001, Archive via Utility
+TA0009, Collection,              T1123, Audio Capture                               ,     ,
+TA0009, Collection,              T1119, Automated Collection                        ,     ,
+TA0009, Collection,              T1115, Clipboard Data                              ,     ,
+TA0009, Collection,              T1530, Data from Cloud Storage Object              ,     ,
+TA0009, Collection,              T1602, Data from Configuration Repository          ,     , 
+TA0009, Collection,              T1602, Data from Configuration Repository          , .002, Network Device Configuration Dump
+TA0009, Collection,              T1602, Data from Configuration Repository          , .001, SNMP (MIB Dump)
+TA0009, Collection,              T1213, Data from Information Repositories          ,     , 
+TA0009, Collection,              T1213, Data from Information Repositories          , .001, Confluence
+TA0009, Collection,              T1213, Data from Information Repositories          , .002, Sharepoint
+TA0009, Collection,              T1005, Data from Local System                      ,     ,
+TA0009, Collection,              T1039, Data from Network Shared Drive              ,     ,
+TA0009, Collection,              T1025, Data from Removable Media                   ,     ,
+TA0009, Collection,              T1074, Data Staged                                 ,     , 
+TA0009, Collection,              T1074, Data Staged                                 , .001, Local Data Staging
+TA0009, Collection,              T1074, Data Staged                                 , .002, Remote Data Staging
+TA0009, Collection,              T1114, Email Collection                            ,     , 
+TA0009, Collection,              T1114, Email Collection                            , .003, Email Forwarding Rule
+TA0009, Collection,              T1114, Email Collection                            , .001, Local Email Collection
+TA0009, Collection,              T1114, Email Collection                            , .002, Remote Email Collection
+TA0009, Collection,              T1056, Input Capture                               ,     , 
+TA0009, Collection,              T1056, Input Capture                               , .004, Credential API Hooking
+TA0009, Collection,              T1056, Input Capture                               , .002, GUI Input Capture
+TA0009, Collection,              T1056, Input Capture                               , .001, Keylogging
+TA0009, Collection,              T1056, Input Capture                               , .003, Web Portal Capture
+TA0009, Collection,              T1185, Man in the Browser                          ,     ,
+TA0009, Collection,              T1557, Man-in-the-Middle                           ,     , 
+TA0009, Collection,              T1557, Man-in-the-Middle                           , .002, ARP Cache Poisoning
+TA0009, Collection,              T1557, Man-in-the-Middle                           , .001, LLMNR/NBT-NS Poisoning and SMB Relay
+TA0009, Collection,              T1113, Screen Capture                              ,     ,
+TA0009, Collection,              T1125, Video Capture                               ,     ,
+TA0011, Command and Control,     T1071, Application Layer Protocol                  ,     , 
+TA0011, Command and Control,     T1071, Application Layer Protocol                  , .004, DNS
+TA0011, Command and Control,     T1071, Application Layer Protocol                  , .002, File Transfer Protocols
+TA0011, Command and Control,     T1071, Application Layer Protocol                  , .003, Mail Protocols
+TA0011, Command and Control,     T1071, Application Layer Protocol                  , .001, Web Protocols
+TA0011, Command and Control,     T1092, Communication Through Removable Media       ,     ,
+TA0011, Command and Control,     T1132, Data Encoding                               ,     , 
+TA0011, Command and Control,     T1132, Data Encoding                               , .002, Non-Standard Encoding
+TA0011, Command and Control,     T1132, Data Encoding                               , .001, Standard Encoding
+TA0011, Command and Control,     T1001, Data Obfuscation                            ,     , 
+TA0011, Command and Control,     T1001, Data Obfuscation                            , .001, Junk Data
+TA0011, Command and Control,     T1001, Data Obfuscation                            , .003, Protocol Impersonation
+TA0011, Command and Control,     T1001, Data Obfuscation                            , .002, Steganography
+TA0011, Command and Control,     T1568, Dynamic Resolution                          ,     , 
+TA0011, Command and Control,     T1568, Dynamic Resolution                          , .003, DNS Calculation
+TA0011, Command and Control,     T1568, Dynamic Resolution                          , .002, Domain Generation Algorithms
+TA0011, Command and Control,     T1568, Dynamic Resolution                          , .001, Fast Flux DNS
+TA0011, Command and Control,     T1573, Encrypted Channel 3                         ,     , 
+TA0011, Command and Control,     T1573, Encrypted Channel 3                         , .002, Asymmetric Cryptography
+TA0011, Command and Control,     T1573, Encrypted Channel 3                         , .001, Symmetric Cryptography
+TA0011, Command and Control,     T1008, Fallback Channels                           ,     ,
+TA0011, Command and Control,     T1105, Ingress Tool Transfer                       ,     ,
+TA0011, Command and Control,     T1104, Multi-Stage Channels                        ,     ,
+TA0011, Command and Control,     T1095, Non-Application Layer Protocol              ,     ,
+TA0011, Command and Control,     T1571, Non-Standard Port                           ,     ,
+TA0011, Command and Control,     T1572, Protocol Tunneling                          ,     ,
+TA0011, Command and Control,     T1090, Proxy                                       ,     , 
+TA0011, Command and Control,     T1090, Proxy                                       , .004, Domain Fronting
+TA0011, Command and Control,     T1090, Proxy                                       , .002, External Proxy
+TA0011, Command and Control,     T1090, Proxy                                       , .001, Internal Proxy
+TA0011, Command and Control,     T1090, Proxy                                       , .003, Multi-hop Proxy
+TA0011, Command and Control,     T1219, Remote Access Software                      ,     ,
+TA0011, Command and Control,     T1205, Traffic Signaling                           ,     , 
+TA0011, Command and Control,     T1205, Traffic Signaling                           , .001, Port Knocking
+TA0011, Command and Control,     T1102, Web Service                                 ,     , 
+TA0011, Command and Control,     T1102, Web Service                                 , .002, Bidirectional Communication
+TA0011, Command and Control,     T1102, Web Service                                 , .001, Dead Drop Resolver
+TA0011, Command and Control,     T1102, Web Service                                 , .003, One-Way Communication
+TA0010, Exfiltration,            T1020, Automated Exfiltration                      ,     , 
+TA0010, Exfiltration,            T1020, Automated Exfiltration                      , .001, Traffic Duplication
+TA0010, Exfiltration,            T1030, Data Transfer Size Limits                   ,     ,
+TA0010, Exfiltration,            T1048, Exfiltration Over Alternative Protocol      ,     , 
+TA0010, Exfiltration,            T1048, Exfiltration Over Alternative Protocol      , .002, Exfiltration Over Asymmetric Encrypted Non-C2 Protocol
+TA0010, Exfiltration,            T1048, Exfiltration Over Alternative Protocol      , .001, Exfiltration Over Symmetric Encrypted Non-C2 Protocol
+TA0010, Exfiltration,            T1048, Exfiltration Over Alternative Protocol      , .003, Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol
+TA0010, Exfiltration,            T1041, Exfiltration Over C2 Channel                ,     ,
+TA0010, Exfiltration,            T1011, Exfiltration Over Other Network Medium      ,     , 
+TA0010, Exfiltration,            T1011, Exfiltration Over Other Network Medium      , .001, Exfiltration Over Bluetooth
+TA0010, Exfiltration,            T1052, Exfiltration Over Physical Medium           ,     , 
+TA0010, Exfiltration,            T1052, Exfiltration Over Physical Medium           , .001, Exfiltration over USB
+TA0010, Exfiltration,            T1567, Exfiltration Over Web Service               ,     , 
+TA0010, Exfiltration,            T1567, Exfiltration Over Web Service               , .002, Exfiltration to Cloud Storage
+TA0010, Exfiltration,            T1567, Exfiltration Over Web Service               , .001, Exfiltration to Code Repository
+TA0010, Exfiltration,            T1029, Scheduled Transfer                          ,     ,
+TA0010, Exfiltration,            T1537, Transfer Data to Cloud Account              ,     ,
+TA0040, Impact,                  T1531, Account Access Removal                      ,     ,
+TA0040, Impact,                  T1485, Data Destruction                            ,     ,
+TA0040, Impact,                  T1486, Data Encrypted for Impact                   ,     ,
+TA0040, Impact,                  T1565, Data Manipulation                           ,     , 
+TA0040, Impact,                  T1565, Data Manipulation                           , .003, Runtime Data Manipulation
+TA0040, Impact,                  T1565, Data Manipulation                           , .001, Stored Data Manipulation
+TA0040, Impact,                  T1565, Data Manipulation                           , .002, Transmitted Data Manipulation
+TA0040, Impact,                  T1491, Defacement                                  ,     , 
+TA0040, Impact,                  T1491, Defacement                                  , .002, External Defacement
+TA0040, Impact,                  T1491, Defacement                                  , .001, Internal Defacement
+TA0040, Impact,                  T1561, Disk Wipe                                   ,     , 
+TA0040, Impact,                  T1561, Disk Wipe                                   , .001, Disk Content Wipe
+TA0040, Impact,                  T1561, Disk Wipe                                   , .002, Disk Structure Wipe
+TA0040, Impact,                  T1499, Endpoint Denial of Service                  ,     , 
+TA0040, Impact,                  T1499, Endpoint Denial of Service                  , .003, Application Exhaustion Flood
+TA0040, Impact,                  T1499, Endpoint Denial of Service                  , .004, Application or System Exploitation
+TA0040, Impact,                  T1499, Endpoint Denial of Service                  , .001, OS Exhaustion Flood
+TA0040, Impact,                  T1499, Endpoint Denial of Service                  , .002, Service Exhaustion Flood
+TA0040, Impact,                  T1495, Firmware Corruption                         ,     ,
+TA0040, Impact,                  T1490, Inhibit System Recovery                     ,     ,
+TA0040, Impact,                  T1498, Network Denial of Service                   ,     , 
+TA0040, Impact,                  T1498, Network Denial of Service                   , .001, Direct Network Flood
+TA0040, Impact,                  T1498, Network Denial of Service                   , .002, Reflection Amplification
+TA0040, Impact,                  T1496, Resource Hijacking                          ,     ,
+TA0040, Impact,                  T1489, Service Stop                                ,     ,
+TA0040, Impact,                  T1529, System Shutdown/Reboot                      ,     ,
